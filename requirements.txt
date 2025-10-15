@@ -1,22 +1,17 @@
-fastapi
-uvicorn[standard]
-sqlalchemy
-psycopg2-binary
-python-dotenv
-jinja2
-openai
-tavily-python
-wikipedia
-requests
-aisuite
-docstring_parser
+# Core data science libraries
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
 
-# Core
-pdfminer.six
-pymupdf           # optional but recommended for faster/better PDF text extraction
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
 
-# Web/knowledge tools you used in other snippets (optional)
-python-dotenv
+# OpenAI API (for LLM interactions)
+openai>=1.0.0
 
-# SQLite via SQLAlchemy
-SQLAlchemy
+# Image processing and base64 encoding
+Pillow>=9.0.0
+
+# Additional utilities that might be needed
+requests>=2.28.0
