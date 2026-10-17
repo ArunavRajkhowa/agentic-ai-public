@@ -1,4 +1,4 @@
-# Lint config scoped to rules that catch defects, not style opinions (same policy as PEX).
+# Lint config scoped to rules that catch defects, not style opinions.
 target-version = "py312"
 line-length = 110
 exclude = [".venv", "frontend", "**/__pycache__", "data"]
